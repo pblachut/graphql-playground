@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphqlApi", "GraphqlApi\GraphqlApi.csproj", "{51FD3BD0-EB4F-4644-ACA7-BE9EB6BA7670}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9EBDC99F-4411-43C3-9E9F-6E681D8E0DB5}"
+ProjectSection(SolutionItems) = preProject
+	..\README.md = ..\README.md
+	..\.gitignore = ..\.gitignore
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$/../.gitignore" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="GraphqlApi" t="IncludeRecursive">
-        <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="DomainController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
+        <e p="createDbDocuments.http" t="Include" />
+        <e p="docker-compose.yml" t="Include" />
+        <e p="DocumentStoreFactory.cs" t="Include" />
+        <e p="Dtos" t="Include">
+          <e p="EmployeeDto.cs" t="Include" />
+          <e p="EmployeeObjectType.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
+          <e p="UserObjectType.cs" t="Include" />
+        </e>
         <e p="GraphqlApi.csproj" t="IncludeRecursive" />
-        <e p="HumanInputType.cs" t="Include" />
-        <e p="InputValidationRule.cs" t="Include" />
+        <e p="IdentitySchema.cs" t="Include" />
+        <e p="IdentitySchemaQuery.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
@@ -20,26 +30,22 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="launchSettings.json" t="Include" />
+        <e p="RavenDbConfig.cs" t="Include" />
+        <e p="SampleDomain" t="Include">
+          <e p="DocumentStoreExtensions.cs" t="Include" />
+          <e p="Employee.cs" t="Include" />
+          <e p="EmployeeQueryIndex.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="StarWarsData.cs" t="Include" />
-        <e p="StarWarsQuery.cs" t="Include" />
-        <e p="StarWarsSchema.cs" t="Include" />
-        <e p="Types" t="Include">
-          <e p="CharacterInterface.cs" t="Include" />
-          <e p="DroidType.cs" t="Include" />
-          <e p="EpisodeEnum.cs" t="Include" />
-          <e p="HumanType.cs" t="Include" />
-          <e p="StarWarsCharacter.cs" t="Include" />
-        </e>
-        <e p="wwwroot" t="Include" />
       </e>
       <e p="GraphqlPlayground.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="SolutionItems" t="Include" />
     </e>
+    <e p="$PROJECT_DIR$/../README.md" t="Include" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_GraphqlPlayground.323734432.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_GraphqlPlayground.-978877712.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>

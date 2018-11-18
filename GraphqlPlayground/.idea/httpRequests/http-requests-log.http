@@ -1,0 +1,258 @@
+POST https://127.0.0.1:5001/api/employees
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"employees/4",
+  "name":"employee 4 name",
+  "userId": "users/2"
+}
+
+###
+
+POST https://127.0.0.1:5001/api/employees
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"employees/3",
+  "name":"employee 3 name",
+  "userId": "users/1"
+}
+
+###
+
+POST https://127.0.0.1:5001/api/employees
+Content-Type: application/json
+Accept: application/json
+
+{
+"id":"employees/2",
+"name":"employee 2 name",
+"userId": "users/1"
+}
+
+###
+
+POST https://127.0.0.1:5001/api/employees
+Content-Type: application/json
+Accept: application/json
+
+{
+"id":"employees/1",
+"name":"employee 1 name",
+"userId": "users/1"
+}
+
+###
+
+POST https://127.0.0.1:5001/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/2",
+  "name":"user 2 name"
+}
+
+###
+
+POST https://127.0.0.1:5001/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST https://127.0.0.1:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST https://127.0.0.1:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST https://localhost:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST https://localhost:5001/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST https://localhost:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5001/api/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5001/api/domain/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5001/api/domain/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5001/api/domain/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5000/api/domain/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5001/api/domain/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5001/api/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5001/api/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "id":"users/1",
+  "name":"user 1 name"
+}
+
+###
+

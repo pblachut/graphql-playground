@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ravendb:
+    image: "ravendb/ravendb:4.1.2-ubuntu.18.04-x64"
+    ports:
+    - "8080:8080"
+    - "38888:38888"

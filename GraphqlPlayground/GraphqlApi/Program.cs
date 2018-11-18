@@ -19,7 +19,12 @@ namespace GraphqlApi
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(directory)
-                .UseIISIntegration()
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    config.SetBasePath(Directory.GetCurrentDirectory());
+                    config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
+                    config.AddCommandLine(args);
+                })
                 .UseStartup<Startup>()
                 .Build();
 
