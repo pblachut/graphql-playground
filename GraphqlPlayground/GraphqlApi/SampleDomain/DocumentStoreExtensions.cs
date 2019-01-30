@@ -25,7 +25,14 @@ namespace GraphqlApi.SampleDomain
                 .Where(c => c.UserId == userId)
                 .Skip(0)
                 .Take(100)
-                .OfType<EmployeeDto>()
+                .OfType<Employee>()
+                .ToList()
+                .Select(c => new EmployeeDto
+                {
+                    UserId = c.UserId,
+                    EmployeeName = c.Name,
+                    Id = c.Id
+                })
                 .ToList();
         }
         
@@ -62,7 +69,7 @@ namespace GraphqlApi.SampleDomain
             return new UserDto
             {
                 Id = user.Id,
-                UserName = user.Name,
+                UserName = user.Name
             };
         }
         

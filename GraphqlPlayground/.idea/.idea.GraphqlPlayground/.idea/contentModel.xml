@@ -8,7 +8,6 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="DomainController.cs" t="Include" />
-          <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="createDbDocuments.http" t="Include" />
         <e p="docker-compose.yml" t="Include" />

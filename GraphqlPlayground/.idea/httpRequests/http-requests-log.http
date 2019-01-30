@@ -3,6 +3,18 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "id":"employees/5",
+  "name":"employee 5 name",
+  "userId": "users/2"
+}
+
+###
+
+POST https://127.0.0.1:5001/api/employees
+Content-Type: application/json
+Accept: application/json
+
+{
   "id":"employees/4",
   "name":"employee 4 name",
   "userId": "users/2"

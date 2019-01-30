@@ -14,7 +14,7 @@ namespace GraphqlApi.SampleDomain
         public EmployeeQueryIndex()
         {
             Map = employees => from employee in employees
-                select new 
+                select new Result
                 {
                     UserId = employee.UserId,
                     Name = employee.Name
